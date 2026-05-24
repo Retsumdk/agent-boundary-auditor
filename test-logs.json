@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-05-24T10:00:00Z",
+    "type": "tool_call",
+    "tool": "run_bash_command",
+    "args": {
+      "cmd": "rm -rf /"
+    },
+    "agentId": "test-agent"
+  },
+  {
+    "timestamp": "2026-05-24T10:05:00Z",
+    "type": "log",
+    "message": "User email is test@example.com and phone is 555-0199",
+    "agentId": "test-agent"
+  }
+]
